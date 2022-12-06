@@ -1,7 +1,7 @@
 use std::fs;
 
 fn part_one() {
-    let input = fs::read_to_string("input.txt").expect("Should have been able to read the file");
+    let input = fs::read_to_string("input.txt").expect("Should have been able to read the file").replace("\r", "");
 
     let mut max = 0;
     let mut sum = 0;
@@ -19,7 +19,7 @@ fn part_one() {
 }
 
 fn part_two() {
-    let input = fs::read_to_string("input.txt").expect("Should have been able to read the file");
+    let input = fs::read_to_string("input.txt").expect("Should have been able to read the file").replace("\r", "");
 
     let mut max = [0, 0, 0];
     let mut sum = 0;
@@ -27,10 +27,18 @@ fn part_two() {
         if !line.is_empty() {
             sum += line.parse::<i32>().unwrap();
         } else {
-            for i in 0..3 {
-                if sum > max[i] {
-                    max[i] = sum;
-                    break;
+            if sum > max[0] {
+                if sum > max[1] {
+                    if sum > max[2] {
+                        max[0] = max[1];
+                        max[1] = max[2];
+                        max[2] = sum;
+                    } else {
+                        max[0] = max[1];
+                        max[1] = sum;
+                    }
+                } else {
+                    max[0] = sum;
                 }
             }
             sum = 0;
