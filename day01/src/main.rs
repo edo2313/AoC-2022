@@ -1,7 +1,9 @@
 use std::fs;
 
 fn part_one() {
-    let input = fs::read_to_string("input.txt").expect("Should have been able to read the file").replace("\r", "");
+    let input = fs::read_to_string("input.txt")
+        .expect("Should have been able to read the file")
+        .replace("\r", "");
 
     let mut max = 0;
     let mut sum = 0;
@@ -19,7 +21,9 @@ fn part_one() {
 }
 
 fn part_two() {
-    let input = fs::read_to_string("input.txt").expect("Should have been able to read the file").replace("\r", "");
+    let input = fs::read_to_string("input.txt")
+        .expect("Should have been able to read the file")
+        .replace("\r", "");
 
     let mut max = [0, 0, 0];
     let mut sum = 0;
@@ -45,7 +49,7 @@ fn part_two() {
         }
     }
     println!("3 maximums are {}, {} and {}", max[0], max[1], max[2]);
-    println!("Their sum is {}", max[0]+max[1]+max[2])
+    println!("Their sum is {}", max[0] + max[1] + max[2])
 }
 
 fn main() {
