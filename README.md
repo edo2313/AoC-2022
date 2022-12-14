@@ -6,14 +6,14 @@ I guess I'll try Rust this time, wish me luck 🙃
 
 
 #### Current progress
-- [ ] [Day 01](https://github.com/edo2313/AoC-2022/tree/main/day01)
-- [ ] [Day 02](https://github.com/edo2313/AoC-2022/tree/main/day02)
-- [ ] [Day 03](https://github.com/edo2313/AoC-2022/tree/main/day03)
+- [x] [Day 01](https://github.com/edo2313/AoC-2022/tree/main/day01)
+- [x] [Day 02](https://github.com/edo2313/AoC-2022/tree/main/day02)
+- [x] [Day 03](https://github.com/edo2313/AoC-2022/tree/main/day03)
 - [ ] [Day 04](https://github.com/edo2313/AoC-2022/tree/main/day04)
-- [ ] [Day 05](https://github.com/edo2313/AoC-2022/tree/main/day05)
-- [ ] [Day 06](https://github.com/edo2313/AoC-2022/tree/main/day06)
+- [x] [Day 05](https://github.com/edo2313/AoC-2022/tree/main/day05)
+- [x] [Day 06](https://github.com/edo2313/AoC-2022/tree/main/day06)
 - [ ] [Day 07](https://github.com/edo2313/AoC-2022/tree/main/day07)
-- [ ] [Day 08](https://github.com/edo2313/AoC-2022/tree/main/day08)
+- [x] [Day 08](https://github.com/edo2313/AoC-2022/tree/main/day08)
 - [ ] [Day 09](https://github.com/edo2313/AoC-2022/tree/main/day09)
 - [ ] [Day 10](https://github.com/edo2313/AoC-2022/tree/main/day10)
 - [ ] [Day 11](https://github.com/edo2313/AoC-2022/tree/main/day11)
